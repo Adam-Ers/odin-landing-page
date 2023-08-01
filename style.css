@@ -136,6 +136,8 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
 }
 
 .quote-container {
@@ -143,8 +145,6 @@ li {
     flex-direction: column;
     align-items: center;
     width: 800px;
-    padding-top: 150px;
-    padding-bottom: 100px;
 }
 
 .quote-text {
