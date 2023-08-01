@@ -48,20 +48,17 @@ li {
     font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
-    flex-shrink: 0;
 }
 
 .header-links {
     display: flex;
     gap: 24px;
-    flex-shrink: 0;
 }
 
 .header-link,
 .hero-secondary-text {
     color: #E5E7EB;
     font-size: 18px;
-    flex-shrink: 0;
 }
 
 .hero {
@@ -71,7 +68,7 @@ li {
 }
 
 .hero-content {
-    width: 525px;
+    width: 475px;
 }
 
 .hero-text {
@@ -95,4 +92,41 @@ li {
     border-radius: 8px;
     padding: 8px 36px;
     margin-top: 16px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 50px 0px;
+}
+
+.information-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 48px;
+    padding-bottom: 100px;
+}
+
+.information-image-container {
+    width: 183px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #4d5969;
+    gap: 4px;
+}
+
+.information-image {
+    width: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
 }
