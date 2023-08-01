@@ -44,7 +44,8 @@ li {
     gap: 200px;
 }
 
-.header-logo {
+.header-logo,
+.call-header {
     font-size: 24px;
     font-weight: 700;
     color: #f9faf8;
@@ -56,7 +57,8 @@ li {
 }
 
 .header-link,
-.hero-secondary-text {
+.hero-secondary-text,
+.call-subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -165,4 +167,28 @@ li {
 
 .quote-author > a {
     color: #1f2937;
+}
+
+.call-container {
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 100px 0px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white-border {
+    border: 2px solid #f9faf8
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    color: #f9faf8;
 }
